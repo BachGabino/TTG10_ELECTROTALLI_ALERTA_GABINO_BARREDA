@@ -50,7 +50,8 @@ Es decir, mientras el switch 6 esté activado:
 
 Si se enciende el LED 1, los demás permanecerán apagados.
 
-Si en su lugar se enciende el LED 2, el LED 1 se apagará automáticamente, y así sucesivamente con los demás LEDs.
+Si en su lugar se enciende el LED 2, el LED 1 se apagará automáticamente, y así sucesivamente con los demás LEDs. 
+EL LED 5 quedará de respaldo por si algun LED principal presente alguna fallo.
 
 Este diseño garantiza un funcionamiento ordenado y controlado, evitando que múltiples LEDs se activen al mismo tiempo, lo que puede ser útil en sistemas de señalización, tableros de control o indicadores de estado.
 
