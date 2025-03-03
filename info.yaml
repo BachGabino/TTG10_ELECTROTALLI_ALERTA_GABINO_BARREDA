@@ -1,6 +1,6 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       424055268905620481 # Set this to the ID of your Wokwi project (the number from the project's URL)
+  wokwi_id:     424055268905620481 # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "TEMPERATURA HIPEC"      # Project title
   author:       "KARLA RODRIGO"      # Your name
   discord:      "TTGENERACION10_ELECTROTALLI_HIPEC"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
@@ -15,22 +15,22 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
+  ui[0]: "Led_AZ"
+  ui[1]: "Led_AC"
+  ui[2]: "Led_AM"
+  ui[3]: "Led_MO"
+  ui[4]: "Led_VE"
+  ui[5]: "inicio_Led_RO"
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
+  uo[0]: "Alerta_LED_AZ"
+  uo[1]: "Alerta_LED_AC"
+  uo[2]: "Alerta_LED_AM"
+  uo[3]: "Alerta_LED_MO"
+  uo[4]: "Alerta_LED_VE"
+  uo[5]: "Alerta_LED_RO"
   uo[6]: ""
   uo[7]: ""
 
