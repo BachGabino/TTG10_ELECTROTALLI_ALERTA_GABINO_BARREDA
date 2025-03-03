@@ -25,27 +25,46 @@ LED Rojo se encenderá cuando el número 6 del switch se pone en ON el cual indi
 ![image](https://github.com/user-attachments/assets/e44fb032-97bc-4179-b5ba-ab38c8373e64)
 
 LED AZUL-AXILA IZQUIERDO
-LED AZUL se encenderá cuando el número 1 del switch se pone en ON el cual indicara una señal de alerta.
+se encenderá cuando el número 1 del switch se pone en ON el cual indicara una señal de alerta.
 ![image](https://github.com/user-attachments/assets/c02dad3d-27e4-48ad-9755-940f352f07b8)
-
-
-
-
 LED AZUL CIELO-AXILA DERECHO
-LED AZUL CIELO se encenderá cuando el número 2 del switch se pone en ON el cual indicara una señal de alerta.
+se encenderá cuando el número 2 del switch se pone en ON el cual indicara una señal de alerta.
 ![image](https://github.com/user-attachments/assets/d4a92e2f-c265-406f-90ba-99d5ff68e8cd)
 
 LED AMARILLO INGLE IZQUIERDA
-LED AMARILLO se encenderá cuando el número 3 del switch se pone en ON el cual indicara una señal de alerta.
+se encenderá cuando el número 3 del switch se pone en ON el cual indicara una señal de alerta.
 
 ![Imagen de WhatsApp 2025-03-01 a las 07 51 41_c7512c37](https://github.com/user-attachments/assets/93ac7e1e-e961-4514-8cd6-f28804106f0b)
 
-LED MORADO iNGLE DERECHA
-LED MORADO se encenderá cuando el número 4 del switch se pone en ON el cual indicara una señal de alerta.
+LED MORADO INGLE DERECHA
+se encenderá cuando el número 4 del switch se pone en ON el cual indicara una señal de alerta.
 ![Imagen de WhatsApp 2025-03-01 a las 07 51 41_adaeba11](https://github.com/user-attachments/assets/f5b89a92-eace-4f22-b3be-e1965a52a510)
 
 
 ## How to test
+Para activar el funcionamiento de este circuito, primero es necesario encender el switch número 6, el cual iluminará su respectivo LED rojo, indicando que el sistema está habilitado.
+
+Una vez activado el switch principal, se podrá encender cualquiera de los LEDs independientes, pero con una condición especial: solo uno de ellos podrá estar encendido a la vez.
+
+Es decir, mientras el switch 6 esté activado:
+
+Si se enciende el LED 1, los demás permanecerán apagados.
+
+Si en su lugar se enciende el LED 2, el LED 1 se apagará automáticamente, y así sucesivamente con los demás LEDs.
+
+Este diseño garantiza un funcionamiento ordenado y controlado, evitando que múltiples LEDs se activen al mismo tiempo, lo que puede ser útil en sistemas de señalización, tableros de control o indicadores de estado.
+
+Este circuito se propone para el area medica oncologica, este procedimiento se aplica a ciertos tipos de cáncer como lo son:
+- Cáncer de ovario
+- Cáncer de colon
+- Cáncer de estómago
+- Cáncer apendicular
+- Mesotelioma peritoneal
+- Pseudomixoma peritoneal
+- Carcinomatosis peritoneal
+- Timoma
+- Sarcomas de células redondas
+- Ascitis maligna
 
 La HIPEC (quimioterapia intraperitoneal hipertérmica) es un tratamiento oncológico que se aplica durante una cirugía para destruir células cancerígenas en el abdomen. 
 
