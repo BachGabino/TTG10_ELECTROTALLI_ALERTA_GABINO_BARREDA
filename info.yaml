@@ -2,7 +2,7 @@
 project:
   wokwi_id:     424378748475594753 # Set this to the ID of your Wokwi project (the number from the project's URL)
   title:        "TEMPERATURA HIPEC"      # Project title
-  author:       "KARLA RODRIGO"      # Your name
+  author:       "KARDI RODRIGO"      # Your name
   discord:      "TTGENERACION10_ELECTROTALLI_HIPEC"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "El objetivo de este proyecto es diseñar y desarrollar una placa de entradas múltiples de 6 canales, que permita la conexión de seis señales de entrada independientes a un sistema de control o procesamiento. La placa debe ser capaz de manejar señales de entrada de diferentes tipos, como tensiones, corrientes y señales digitales."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
@@ -20,7 +20,7 @@ pinout:
   ui[2]: "Led_AM"
   ui[3]: "Led_MO"
   ui[4]: "Led_VE"
-  ui[5]: "inicio_Led_RO"
+  ui[5]: "Led_RO"
   ui[6]: ""
   ui[7]: ""
 
@@ -30,7 +30,7 @@ pinout:
   uo[2]: "Alerta_LED_AM"
   uo[3]: "Alerta_LED_MO"
   uo[4]: "Alerta_LED_VE"
-  uo[5]: "Alerta_LED_RO"
+  uo[5]: "Inicio_LED_RO"
   uo[6]: ""
   uo[7]: ""
 
