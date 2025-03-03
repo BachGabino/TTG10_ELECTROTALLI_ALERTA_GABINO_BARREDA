@@ -17,7 +17,7 @@ Tabla de entradas y salidas
 
 Circuito con todas las salidas en Cero
 
-
+![Imagen de WhatsApp 2025-03-03 a las 11 43 52_6380e6a2](https://github.com/user-attachments/assets/7c9b1204-5ddc-4513-a473-8bc902cfb6e7) 
 
 
 LED Rojo se encenderá cuando el número 6 del switch se pone en ON el cual indicara el inicio del proceso.
@@ -72,12 +72,13 @@ La HIPEC (quimioterapia intraperitoneal hipertérmica) es un tratamiento oncoló
 Es por ello que se propone utilizar este circuito de la siguiente manera: 
 
 Quimioterapia
-Al encender el LED rojo indicara que la quimioterapia empezara a circular en una máquina de perfusión la cual calienta la calienta a una temperatura entre 41°C y 42°C, y de ahí pasara al abdomen del paciente.
+Al encender el LED rojo indicará que la quimioterapia empezará a circular en una máquina de perfusión la cual calienta a una temperatura entre 41°C y 42°C, y de ahí pasará al abdomen del paciente.
 
 Paciente
-Se colocarán 4 termómetros distribuidos de la siguiente manera: Axila derecha (LED azul fuerte), axila izquierda (LED azul cielo), ingle derecha (LED amarillo) e ingle izquierda (LED morado). La temperatura normal del ser humano es de 36.5°C (97.7°F) paciente, cuando la temperatura del paciente se eleva a 37,8°C (100°F) o más se considera una alerta para el paciente ya que una temperatura fuera del rango normal y por tiempo prolongado puede provocar daño neurológico, problemas respiratorios, o convulsiones. 
+Se colocarán 4 termómetros distribuidos de la siguiente manera: Axila derecha (LED azul fuerte), axila izquierda (LED azul cielo), ingle derecha (LED amarillo) e ingle izquierda (LED morado). La temperatura normal del ser humano es de 36.5°C (97.7°F) , cuando la temperatura del paciente se eleva a 37,8°C (100°F) o más se considera una alerta para el paciente ya que una temperatura fuera del rango normal y por tiempo prolongado puede provocar daño neurológico, problemas respiratorios, o convulsiones. 
 
-Se propone usar termopar tipo B de platino y rodio que detectan temperaturas de 0 a 100°C 212F), 1 por cada LLED, al llegar a la temperatura de 37,8°C (100°F) el termopar mandara un voltaje que indicara que el paciente se encuentra con fiebre, entonces el equipo médico tomara acciones correspondientes.
+Se propone usar termopar tipo B de platino y rodio que detectan temperaturas de 0 a 100°C (212F), 1 por cada LED, al llegar a la temperatura de 37,8°C (100°F) el termopar mandará un voltaje que indicará que el paciente se encuentra con fiebre, entonces el equipo médico tomará acciones correspondientes.
+
 
 
 ## External hardware
