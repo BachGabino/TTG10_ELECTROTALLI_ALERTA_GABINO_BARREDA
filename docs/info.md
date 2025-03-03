@@ -35,21 +35,31 @@ LED AZUL CIELO-AXILA DERECHO
 LED AZUL CIELO se encenderá cuando el número 2 del switch se pone en ON el cual indicara una señal de alerta.
 ![image](https://github.com/user-attachments/assets/d4a92e2f-c265-406f-90ba-99d5ff68e8cd)
 
-LED AMARILLO iNGLE IZQUIERDA
+LED AMARILLO INGLE IZQUIERDA
 LED AMARILLO se encenderá cuando el número 3 del switch se pone en ON el cual indicara una señal de alerta.
+
+![Imagen de WhatsApp 2025-03-01 a las 07 51 41_c7512c37](https://github.com/user-attachments/assets/93ac7e1e-e961-4514-8cd6-f28804106f0b)
+
 LED MORADO iNGLE DERECHA
 LED MORADO se encenderá cuando el número 4 del switch se pone en ON el cual indicara una señal de alerta.
-
-
-
-
-
+![Imagen de WhatsApp 2025-03-01 a las 07 51 41_adaeba11](https://github.com/user-attachments/assets/f5b89a92-eace-4f22-b3be-e1965a52a510)
 
 
 ## How to test
 
-Explain how to use your project
+La HIPEC (quimioterapia intraperitoneal hipertérmica) es un tratamiento oncológico que se aplica durante una cirugía para destruir células cancerígenas en el abdomen. 
+
+Es por ello que se propone utilizar este circuito de la siguiente manera: 
+
+Quimioterapia
+Al encender el LED rojo indicara que la quimioterapia empezara a circular en una máquina de perfusión la cual calienta la calienta a una temperatura entre 41°C y 42°C, y de ahí pasara al abdomen del paciente.
+
+Paciente
+Se colocarán 4 termómetros distribuidos de la siguiente manera: Axila derecha (LED azul fuerte), axila izquierda (LED azul cielo), ingle derecha (LED amarillo) e ingle izquierda (LED morado). La temperatura normal del ser humano es de 36.5°C (97.7°F) paciente, cuando la temperatura del paciente se eleva a 37,8°C (100°F) o más se considera una alerta para el paciente ya que una temperatura fuera del rango normal y por tiempo prolongado puede provocar daño neurológico, problemas respiratorios, o convulsiones. 
+
+Se propone usar termopar tipo B de platino y rodio que detectan temperaturas de 0 a 100°C 212F), 1 por cada LLED, al llegar a la temperatura de 37,8°C (100°F) el termopar mandara un voltaje que indicara que el paciente se encuentra con fiebre, entonces el equipo médico tomara acciones correspondientes.
+
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No
